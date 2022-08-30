@@ -1,0 +1,68 @@
+.label1{
+    font-size: 15px;
+    color: var(--primary);
+    font-weight: bold;
+}
+.title-width{
+	color: var(--primary);
+    font-weight: 700;
+}
+.title-width a{
+    color: var(--primary);
+    font-weight: 700;
+}
+.intoxicacion_check{
+	font-size: 14px;
+}
+.campo{
+    font-size: 14px;
+    color: var(--grey-lighten-1);
+}
+.valor{
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--grey-darken-3);
+}
+
+@media (max-width: 768px) {
+    .mi_align {
+        text-align: center !important;
+    }
+}
+
+#id_input_group_append_1{
+	margin-left: 0px;
+}
+
+#id_unidad:focus{
+    color: #495057;
+    background-color: var(--grey-lighten-2);
+    border-color: var(--grey-lighten-2);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+
+#id_unidad{
+	background-color: var(--grey-lighten-2);
+}
+
+#id_unidad *{
+	background-color: var(--grey-lighten-5);
+}
+
+.btn-reinicio{
+    color: var(--primary);
+    background-color: unset;
+}
+.btn-reinicio:hover{
+    color: var(--primary) !important;
+    background-color: var(--primary_opacity);
+}
+/*#cuadro_nivel_c{
+	border-radius: 35px;
+	border: 1px solid var(--grey-lighten-1);
+    padding: 20px; 
+    text-align: center;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+}*/

@@ -1,0 +1,13 @@
+public/media/users_img/*
+public/files/inspecciones/*
+public/files/Remisiones/*
+public/files/Seguimientos/*
+public/files/Juridico/*
+public/files/InteligenciaOperativa/*
+.DS_Store
+application/.DS_Store
+public/.DS_Store
+application/config/config.php
+public/Java/Huellas/tempHuellas.jnlp
+public/Java/Iris/tempIris.jnlp
+public/Java/Instaladores_Remisiones.zip

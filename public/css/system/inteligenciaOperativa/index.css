@@ -1,0 +1,26 @@
+#map1,
+#map2{
+    height: 100%;
+}
+
+#alertEditVehiculoSP,
+#alertEditCamaras{
+    display: none;
+}
+
+.valor-campo {
+    font-weight: bold;
+    color: var(--grey-darken-2);
+    display: block;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-radius: 1px;
+    border-color: #cfd8dc;
+}
+
+@media only screen and (min-width: 600px){
+    #map1,
+    #map2{
+        min-height: 300px;
+    }
+}

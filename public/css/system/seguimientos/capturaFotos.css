@@ -1,0 +1,76 @@
+#alertEditVehiculoSP
+{
+    display: none;
+}
+
+#map {
+    height: 100%;
+}
+
+#alertEditSena{
+    display: none;
+}
+
+.table-responsive{
+    min-height: 420px !important;
+}
+
+.inputfile{
+    width: 0.1px;
+    height: 0.1px;
+    overflow: hidden;
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label, .btn-photo{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: white;
+    background-color: var(--primary_opacity);
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover,
+.btn-photo:hover{
+    background-color: var(--primary);
+}
+
+#photos-content h5 span{
+    margin-left: 5px;
+    font-size: 0.9rem;
+    color: var(--secondary);
+}
+
+.deleteFile{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.deleteFile2{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    cursor: pointer;
+}

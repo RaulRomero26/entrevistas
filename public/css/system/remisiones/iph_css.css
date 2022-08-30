@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Avenier;
+    src: url(../../../media/font/Avenir.ttf);
+}
+
+body {
+    font-family: Avenier !important;
+    font-size: 14.6px !important;
+}
+
+.campo {
+    color: var(--grey-darken-3);
+}
+
+.valor-campo {
+    font-weight: 600;
+    color: var(--grey-darken-3);
+}
+.folio{
+    color: var(--grey-darken-3);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.campoHeader{
+    color: var(--grey-darken-3);
+    font-size: 19px;
+}
+
+.font_form_campo {
+    font-size: 14.6px;
+}
+
+.font_form_valor {
+    font-size: 15.6px;
+}
+
+.font_observaciones {
+    font-size: 14.6px;
+}
+
+.my-border-table tbody tr td {
+    border-top: 0px;
+    text-align: justify;
+}
+
+.text-disabled {
+    text-decoration-line: line-through;
+    color: var(--grey-lighten-2);
+}
+
+.card {
+    background-color: var(--grey-lighten-4);
+}
+
+.preview {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 2px;
+    background: #fff;
+    max-width: 200px;
+}
+
+.preview img {
+    width: 100%;
+    display: block;
+}
+
+.mi_border_1 {
+    border: 2px solid var(--grey-darken-3);
+    border-radius: 10px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.no_border tbody,
+.no_border tr,
+.no_border td,
+.no_border .table {
+    border: 0px solid #eee;
+}
+
+.border_top {
+    border-top: 1px solid black;
+}
+
+.border_bottom {
+    border-bottom: 1px solid black;
+}
+
+#id_min_height {
+    min-height: 50px;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+                            <jnlp spec="1.0+" codebase="http://localhost/saraid/public/Java/Iris" href="tempIris.jnlp">
+                            <information>
+                                <title>Huellas</title>
+                                <vendor>Ardogs</vendor>
+                                <description>Programa lanzador para el escaner del lector de Iris</description>
+                            </information>
+                            <resources>
+                                <j2se version="5.0+"/>
+                                <jar href="Captura_Iris.jar" main="true"/>
+                            </resources>
+                            <application-desc main-class="VistaPrincipal">
+                                <argument>107</argument>
+                            </application-desc>
+                            <security><all-permissions/></security>
+                            </jnlp>

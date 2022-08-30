@@ -1,0 +1,313 @@
+/*---- ----- ----- -----    Generales    ----- ----- ----- ----*/
+@media (max-width: 576px){
+    .content-senas{
+        margin-top: 550px !important;
+    }
+}
+/*---- ----- ----- -----    Estilos evento click    ----- ----- ----- ----*/
+.piece-active{
+    stroke: var(--active_color) !important;
+}
+
+.select-piece{
+    fill: rgba(97, 5, 33, 0.65) !important;
+}
+
+.senas-list{
+    background-color: var(--primary);
+    border-radius: 8px;
+    list-style: none;
+    color: var(--white);
+    margin-bottom: 5px;
+    padding: 3px 5px;
+}
+
+.senas-list-content{
+    padding-left: 0px !important;
+}
+
+/*---- ----- ----- -----    Parte frontal    ----- ----- ----- ----*/
+.body-front, 
+.body-back{
+    position: relative;
+    margin-top: 20px;
+}
+
+.body-front svg:hover,
+.body-back svg:hover{
+    cursor: pointer;
+}
+
+.body-front svg,
+.body-back svg{
+    position: absolute;
+    left: 50%;
+    fill: var(--primary_opacity);
+}
+
+.body-front svg:hover path,
+.body-back svg:hover path{
+    fill: var(--primary);
+}
+
+.body-front svg.head{
+    width: 56px;
+    margin-left: -28.5px;
+    top: -7px;
+}
+
+.body-front svg.neck{
+    width: 114.7px;
+    margin-left: -57.5px;
+    top: 53px;
+}
+
+.body-front svg.chest-right{
+    width: 54px;
+    margin-left: -55px;
+    top: 99px;
+}
+
+.body-front svg.chest-left{
+    width: 54px;
+    margin-left: 1px;
+    top: 99px;
+}
+
+.body-front svg.shoulder-right{
+    width: 39.84px;
+    margin-left: -83px;
+    top: 92px;
+}
+
+.body-front svg.shoulder-left{
+    width: 39.84px;
+    margin-left: 43px;
+    top: 92px;
+}
+
+.body-front svg.arm-right{
+    width: 36.2px;
+    margin-left: -86.5px;
+    top: 130px;
+}
+
+.body-front svg.arm-left{
+    width: 36.2px;
+    margin-left: 50px;
+    top: 130px;
+}
+
+.body-front svg.forearm-right{
+    width: 36.26px;
+    margin-left: -97.5px;
+    top: 176.5px;
+}
+
+.body-front svg.forearm-left{
+    width: 36.26px;
+    margin-left: 61px;
+    top: 176.5px;
+}
+
+.body-front svg.abdomen-right{
+    width: 46.39px;
+    margin-left: -50px;
+    top: 140px;
+}
+
+.body-front svg.abdomen-left{
+    width: 46.39px;
+    margin-left: 3.61px;
+    top: 140px;
+}
+
+.body-front svg.leg-right{
+    width: 57px;
+    margin-left: -58px;
+    top: 237px;
+}
+
+.body-front svg.leg-left{
+    width: 57px;
+    margin-left: 1px;
+    top: 237px;
+}
+
+.body-front svg.hand-right{
+    width: 27.03px;
+    margin-left: -97.5px;
+    top: 239px;
+}
+.body-front svg.hand-left{
+    width: 27.03px;
+    margin-left: 70.47px;
+    top: 239px;
+}
+
+.body-front svg.calf-right{
+    width: 43.68px;
+    margin-left: -62px;
+    top: 405px;
+}
+
+.body-front svg.calf-left{
+    width: 43.68px;
+    margin-left: 18.32px;
+    top: 405px;
+}
+
+.body-front svg.foot-right{
+    width: 43.83px;
+    margin-left: -77px;
+    top: 499px;
+}
+
+.body-front svg.foot-left{
+    width: 43.83px;
+    margin-left: 33.17px;
+    top: 499px;
+}
+
+/*---- ----- ----- -----    Parte posterior    ----- ----- ----- ----*/
+.body-back{
+    display: none;
+}
+
+.body-back svg.nape{
+    width: 56px;
+    margin-left: -28.5px;
+    top: -7px;
+}
+
+.body-back svg.trapezius-right{
+    width: 56.35px;
+    margin-left: 1px;
+    top: 56px;
+}
+
+.body-back svg.trapezius-left{
+    width: 56.35px;
+    margin-left: -57px;
+    top: 56px;
+}
+
+.body-back svg.trunk-right{
+    width: 52.29px;
+    margin-left: 4px;
+    top: 85px;
+}
+
+.body-back svg.trunk-left{
+    width: 52.29px;
+    margin-left: -51px;
+    top: 85px;
+}
+
+.body-back svg.p-shoulder-right{
+    width: 35.8px;
+    margin-left: 47px;
+    top: 87.5px;
+}
+
+.body-back svg.p-shoulder-left{
+    width: 35.8px;
+    margin-left: -83px;
+    top: 88px;
+}
+
+.body-back svg.p-arm-right{
+    width: 36.75px;
+    margin-left: 48px;
+    top: 122px;
+}
+
+.body-back svg.p-arm-left{
+    width: 36.75px;
+    margin-left: -85px;
+    top: 122.5px;
+}
+
+.body-back svg.p-forearm-right{
+    width: 36.28px;
+    margin-left: 60.5px;
+    top: 171px;
+}
+
+.body-back svg.p-forearm-left{
+    width: 36.28px;
+    margin-left: -97px;
+    top: 172px;
+}
+
+.body-back svg.gluteus-right{
+    width: 45.89px;
+    margin-left: 1px;
+    top: 223px;
+}
+
+.body-back svg.gluteus-left{
+    width: 45.89px;
+    margin-left: -48px;
+    top: 225px;
+}
+
+.body-back svg.p-hand-right{
+    width: 26.11px;
+    margin-left: 68px;
+    top: 249px;
+}
+
+.body-back svg.p-hand-left{
+    width: 26.11px;
+    margin-left: -94px;
+    top: 249px;
+}
+
+.body-back svg.p-leg-right{
+    width: 56.56px;
+    margin-left: 1px;
+    top: 255px;
+}
+
+.body-back svg.p-leg-left{
+    width: 56.56px;
+    margin-left: -58px;
+    top: 256.5px;
+}
+
+.body-back svg.p-calf-right{
+    width: 42.62px;
+    margin-left: 18.5px;
+    top: 383px;
+}
+
+.body-back svg.p-calf-left{
+    width: 42.62px;
+    margin-left: -61.5px;
+    top: 383px;
+}
+
+.body-back svg.p-foot-right{
+    width: 49px;
+    margin-left: 48.5px;
+    top: 496px;
+}
+
+.body-back svg.p-foot-left{
+    width: 49px;
+    margin-left: -80.5px;
+    top: 496px;
+}
+
+.body-back svg.heel-right{
+    width: 48px;
+    margin-left: 30px;
+    top: 500px;
+}
+
+.body-back svg.heel-left{
+    width: 48px;
+    margin-left: -53px;
+    top: 500px;
+}

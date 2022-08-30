@@ -1,0 +1,65 @@
+.back-btn {
+    color: var(--grey-darken-2);
+    background-color: var(--grey-lighten-5);
+}
+
+.back-btn:hover {
+    color: var(--grey-darken-2) !important;
+    background-color: var(--grey-lighten-1);
+}
+
+#id_map_1 {
+    min-height: 300px;
+}
+
+#id_map_2 {
+    min-height: 300px;
+}
+
+.derechos-btn {
+    color: var(--grey-lighten-5);
+    background-color: var(--button-color);
+}
+
+.derechos-btn:hover {
+    color: var(--primary_color) !important;
+    background-color: var(--primary_opacity);
+}
+
+.add-btn {
+    color: var(--grey-lighten-5);
+    background-color: var(--primary_color);
+}
+
+.add-btn:hover {
+    color: var(--primary_color) !important;
+    background-color: var(--primary_opacity);
+}
+
+thead {
+    color: var(--grey-lighten-5);
+    background-color: var(--primary_color);
+}
+
+
+/* css de Buttons de edit y delete */
+
+.mi-btn-edit {
+    color: var(--grey-lighten-5);
+    background-color: var(--primary_color);
+}
+
+.mi-btn-edit:hover {
+    color: var(--grey-lighten-4);
+    background-color: var(--primary_color);
+}
+
+.mi-btn-delete {
+    color: var(--grey-lighten-5);
+    background-color: var(--primary_color);
+}
+
+.mi-btn-delete:hover {
+    color: var(--grey-lighten-5);
+    background-color: var(--primary_color);
+}

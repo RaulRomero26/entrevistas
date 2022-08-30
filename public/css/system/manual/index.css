@@ -1,0 +1,12 @@
+.btn-colllapside {
+    color: var(--primary);
+}
+
+.btn-colllapside:hover {
+    color: var(--primary) !important;
+}
+
+.btn-colllapside:focus {
+    outline: 0px dotted !important;
+    box-shadow: 0 0 0 0.2rem #FAFAFA !important;
+}

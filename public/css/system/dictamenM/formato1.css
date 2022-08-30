@@ -1,0 +1,207 @@
+body {
+    background-color: white;
+}
+
+.campo {
+    color: var(--grey-darken-3);
+}
+
+.valor-campo {
+    font-weight: 600;
+    color: var(--grey-darken-3);
+}
+
+.font-header {
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--grey-darken-3);
+}
+
+.font-folio {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--red-darken-3);
+}
+
+.font-medium {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--grey-darken-3);
+}
+
+.marca {
+    font-weight: bold;
+    font-size: 17px;
+    color: var(--grey-darken-3);
+}
+
+.marca_fondo {
+    border: 1px solid var(--grey-darken-1);
+    border-radius: 10px;
+    background-color: var(--grey-darken-1);
+}
+
+.borde-izq {
+    border-left: 1px solid var(--grey-darken-1);
+}
+
+.borde-der {
+    border-right: 1px solid var(--grey-darken-1);
+}
+
+.border-form {
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    border-color: var(--grey-darken-1);
+}
+
+.border_round {
+    border: 1px solid var(--grey-darken-1);
+    border-radius: 18px;
+}
+
+.font_form_campo {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.font_form_valor {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.font_footer_1 {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.font_footer_2 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.font_footer_3 {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.font_observaciones {
+    font-size: 11px;
+}
+
+.my-border-table tbody tr td {
+    border-top: 0px;
+    text-align: justify;
+}
+
+.text-disabled {
+    text-decoration-line: line-through;
+    color: var(--grey-lighten-2);
+}
+
+.card {
+    background-color: var(--grey-lighten-4);
+}
+
+.preview {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 2px;
+    background: #fff;
+    max-width: 200px;
+}
+
+.mi_border_1 {
+    border: 2px solid var(--grey-darken-3);
+    border-radius: 10px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.no_border tbody,
+.no_border tr,
+.no_border td,
+.no_border .table {
+    border: 0px solid #eee;
+}
+
+.border_top {
+    border-top: 1px solid var(--grey-darken-1);
+}
+
+.border_bottom {
+    border-bottom: 1px solid var(--grey-darken-1);
+}
+
+.logo-borde {
+    border-right: 1px solid var(--grey-darken-1);
+}
+
+.fondo-seccion {
+    background-color: var(--grey-lighten-1);
+    border: 1px solid var(--grey-darken-1);
+}
+
+.fondo-seccion-2 {
+    background-color: var(--grey-lighten-1);
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: var(--grey-darken-1);
+}
+
+.fondo-seccion-3 {
+    background-color: var(--grey-lighten-1);
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: var(--grey-darken-1);
+}
+
+.titulo-seccion {
+    font-weight: bold;
+    font-size: 17px;
+    color: var(--grey-darken-4);
+}
+
+#id_min_height {
+    min-height: 50px;
+}
+
+#id_titulo {
+    font-weight: bold;
+    font-size: 21px;
+    color: var(--grey-darken-3);
+}
+
+
+.rayado_1 {
+    min-height: 90px;
+    text-decoration: underline var(--grey-darken-1);
+    text-align: justify;
+}
+
+.rayado_2 {
+    min-height: 80px;
+    text-decoration: underline var(--grey-darken-1);
+    text-align: justify;
+}
+
+#huella_digital {
+    height: 130px;
+}
+
+.transparent-text {
+    color: transparent !important;
+    font-size: 15px;
+}
+
+
+/* ----- lineas para testar  ---- */
+
+.linea1 { 
+    background-image: url('../../../media/images/letras/linea1.png');
+}
+.linea2 { 
+    background-image: url('../../../media/images/letras/linea2.png');
+}

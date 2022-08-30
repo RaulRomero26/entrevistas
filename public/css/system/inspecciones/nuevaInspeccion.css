@@ -1,0 +1,53 @@
+.label1 {
+    font-size: 15px;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.title-width {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.title-width a {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.sub_header {
+    font-size: 18px;
+}
+
+.check_inspeccion {
+    font-size: 14px;
+}
+
+#id_map {
+    min-height: 300px;
+}
+
+.mi-btn-edit {
+    color: var(--grey-lighten-5);
+    background-color: var(--primary_color);
+}
+
+.mi-btn-edit:hover {
+    color: var(--grey-lighten-4);
+    background-color: var(--primary_color);
+}
+
+.mi-btn-delete {
+    color: var(--grey-lighten-5);
+    background-color: var(--primary_color);
+}
+
+.mi-btn-delete:hover {
+    color: var(--grey-lighten-5);
+    background-color: var(--primary_color);
+}
+
+thead {
+    color: var(--grey-lighten-5);
+    background-color: var(--table-color);
+}
+#map_mapbox { width: 50%; height: 40vh;}

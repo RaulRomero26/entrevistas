@@ -1,0 +1,81 @@
+.sideContent {
+    width: 400px;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: 0;
+    padding-top: 100px;
+}
+
+.subSideContent {
+    height: 100%;
+    width: 100%;
+    padding: 50px 10px 0px 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.mainContent {
+    margin-right: 400px;
+    height: 100%;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.btn.text-primary:hover {
+    color: var(--primary) !important;
+}
+
+.content-items-detenidos a i {
+    color: var(--secondary);
+}
+
+.content-items-detenidos a i:hover {
+    color: var(--primary);
+}
+.content-items-detenidos button i {
+    color: var(--secondary);
+}
+
+.content-items-detenidos button i:hover {
+    color: var(--primary);
+}
+
+.back-btn:hover {
+    color: var(--grey-darken-2);
+    background-color: var(--grey-lighten-1);
+}
+
+#cual_identificacion_content,
+#cuantos_identificacion_content,
+#realizo_inspeccion_content,
+#priorizacion_lugar_content,
+#cual_emergencia_content,
+#especifique_content{
+    display: none;
+}
+
+#map1 {
+    height: 100%;
+}
+
+.dropzone {
+    background: transparent !important;
+    border-style: dotted !important;
+}
+
+#modalLogin{
+    z-index: 1051;
+}
+
+.myLinks .material-icons {
+    transition: all .2s ease-in-out;
+    color: var(--grey-darken-2);
+}
+
+.myLinks .material-icons:hover {
+    color: var(--primary_color);
+    transform: scale(1.2);
+}
