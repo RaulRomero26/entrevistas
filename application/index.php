@@ -16,4 +16,5 @@
     spl_autoload_register(function($nameClass){
         require_once 'libraries/' . '$nameClass' . '.php';
     });*/
+    //commit rama liz
 ?>
