@@ -393,23 +393,23 @@
 				}
 				$i=1;
 				foreach ($vehiculos as $key => $value) {
-					$vehiculos_cad.= "Vehiculo ".$i.": ";
-					$vehiculos_cad.= "Placa: ";
-					$vehiculos_cad.= $value->Placa_Vehiculo.", ";
-					$vehiculos_cad.= "Marca: ";
-					$vehiculos_cad.= $value->Marca.", ";
-					$vehiculos_cad.= "Submarca: ";
-					$vehiculos_cad.= $value->Submarca.", ";
-					$vehiculos_cad.= "Tipo: ";
-					$vehiculos_cad.= $value->Tipo_Vehiculo.", ";
-					$vehiculos_cad.= "Modelo: ";
-					$vehiculos_cad.= $value->Modelo.", ";
-					$vehiculos_cad.= "Color: ";
-					$vehiculos_cad.= $value->Color.", ";
-					$vehiculos_cad.= "Procedencia: ";
-					$vehiculos_cad.= $value->Procedencia_Vehiculo.", ";
-					$vehiculos_cad.= "No. Serie: ";
-					$vehiculos_cad.= $value->No_Serie.", ";
+					$vehiculos_cad.= "VEHICULO ".$i.": ";
+					$vehiculos_cad.= "PLACA: ";
+					$vehiculos_cad.= $value->Placa_Vehiculo.", "?mb_strtoupper($value->Placa_Vehiculo).", ":"";
+					$vehiculos_cad.= "MARCA: ";
+					$vehiculos_cad.= $value->Marca.", "?mb_strtoupper($value->Marca).", ":"";
+					$vehiculos_cad.= "SUBMARCA: ";
+					$vehiculos_cad.= $value->Submarca.", "?mb_strtoupper($value->Submarca).",":"";
+					$vehiculos_cad.= "TIPO: ";
+					$vehiculos_cad.= $value->Tipo_Vehiculo.", "?mb_strtoupper($value->Tipo_Vehiculo).",":"";
+					$vehiculos_cad.= "MODELO: ";
+					$vehiculos_cad.= $value->Modelo.", "?mb_strtoupper($value->Modelo).",":"";
+					$vehiculos_cad.= "COLOR: ";
+					$vehiculos_cad.= $value->Color.", "?mb_strtoupper($value->Color).",":"";
+					$vehiculos_cad.= "PROCEDENCIA: ";
+					$vehiculos_cad.= $value->Procedencia_Vehiculo.", "?mb_strtoupper($value->Procedencia_Vehiculo).",":"";
+					$vehiculos_cad.= "NO. SERIE: ";
+					$vehiculos_cad.= $value->No_Serie.", "?mb_strtoupper($value->No_Serie).",":"";
 					$i++;
 				}
 				//$objetos_cad .= ($vehiculo_asegurado != '')?mb_strtoupper($vehiculo_asegurado).", ":"";
