@@ -6,10 +6,10 @@
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script type="text/javascript">
-            const base_url_js = 'http://localhost/entrevistas/',
-                base_url = 'http://localhost/entrevistas/Remisiones/',
-                pathFilesRemisiones = `http://localhost/entrevistas/public/files/Remisiones/`;
-                pathFilesSeguimientos = `http://localhost/entrevistas/public/files/Seguimientos/`;
+            const base_url_js = 'http://localhost/planeacion2/',
+                base_url = 'http://localhost/planeacion2/Remisiones/',
+                pathFilesRemisiones = `http://localhost/planeacion2/public/files/Remisiones/`;
+                pathFilesSeguimientos = `http://localhost/planeacion2/public/files/Seguimientos/`;
         </script>
         <script src="<?php echo base_url ?>public/js/template/footer/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
