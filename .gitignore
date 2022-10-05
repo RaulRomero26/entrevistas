@@ -11,3 +11,5 @@ application/config/config.php
 public/Java/Huellas/tempHuellas.jnlp
 public/Java/Iris/tempIris.jnlp
 public/Java/Instaladores_Remisiones.zip
+application/views/templates/footer.php
+public/.htaccess
